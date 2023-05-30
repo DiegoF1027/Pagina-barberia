@@ -1,0 +1,238 @@
+* {
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background: url("../Imgs/bg.jpg");
+  }
+  
+  nav {
+    position: absolute;
+    top: 110px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav a:hover {
+    color: orange;
+  }
+  
+  #seccion2 img {
+    width: 100%;
+    max-width: 367px;
+    height: auto;
+    float: right;
+    margin: 48px 144px 0;
+    border-radius: 20px;
+    box-shadow: 15px 10px 15px #000000;
+  }
+  
+  #seccion2 label {
+    display: block;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 31px;
+    margin-left: 5%;
+  }
+  
+  #seccion2 .mensaje input {
+    height: 100px;
+  }
+  
+  #seccion2 input,
+  #seccion2 textarea {
+    width: 90%;
+    max-width: 509px;
+    height: 39px;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #seccion2 .input-padre {
+    display: block;
+    width: 82%;
+    padding: 10px 25px;
+    width: 509px;
+    height: 173px;
+  }
+  
+  #seccion2 textarea {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+  
+  #seccion3 fieldset {
+    margin-left: 2%;
+  }
+  
+  #seccion3 legend {
+    display: block;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 31px;
+    margin-left: 2%;
+  }
+  
+  #seccion3 label {
+    display: block;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 2%;
+  }
+  
+  #seccion4 {
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+
+  #seccion4 legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+  }
+  
+  #div1 label{
+    display: block;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 2%;
+  }
+
+  .enviar{
+    width: 300px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #ffb300;
+    font-weight: bold;
+    font-size: 20px;
+    border-color: #ffb300;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  .enviar:hover{
+    transform: scale(1.1);
+    background-color: #ffb000;
+    border-color: #ffb000;
+  }
+ 
+  table{
+    text-align: center;
+  }
+  
+  thead {
+    background: #ffb300;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+  footer {
+    background: url("../Imgs/bgf.jpg");
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  
+  footer img {
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  table {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+  
+@media screen and (max-width: 768px) {
+  header img{
+    margin-left: 107px;
+  }
+  
+  header{
+    height: 306px;
+  }
+
+  nav {
+    margin-top: 138px;
+    position: absolute;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  #seccion2 .row {
+    flex-direction: column-reverse;
+  }
+
+  #seccion2 img {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  #seccion2 input,
+  #seccion2 textarea {
+    width: 90%;
+    max-width: 300px;
+    margin-left: 5%;
+  }
+
+  .enviar{
+    margin-left: 52px;
+  }
+
+  table{
+    margin-left: 100px;
+  }
+}
+  

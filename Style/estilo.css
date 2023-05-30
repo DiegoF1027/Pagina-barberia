@@ -1,0 +1,188 @@
+*{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #616161;
+    overflow-x: hidden;
+}
+
+header{
+    background: url("../Imgs/bg.jpg");
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+#banner{
+    width: 100%;
+    height: 369px;
+}
+
+#seccion3,
+#seccion4{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#seccion3{
+    background-color: aliceblue;
+}
+
+#seccion3 h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#acerca{
+    width: 276px;
+    height: 234px;
+    border-radius: 5px;
+}
+
+#seccion3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#mapa{
+    background-color: aliceblue;
+    padding-bottom: 70px;
+}
+
+#mapa h2,
+#mapa p{
+    text-align: center;
+}
+
+#mapa iframe{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#seccion4 h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 36px;
+}
+
+#seccion4 li{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding-bottom: 36px;
+    list-style: none;
+}
+
+#barbero{
+    width: 384px;
+    height: 256px;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.items::before{
+    content: "🌟 ";
+}
+
+#barbero:hover{
+    opacity: 1;
+}
+
+#video iframe{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+footer{
+    background: url("../Imgs/bgf.jpg");
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+footer img{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header img{
+      margin-left: 107px;
+    }
+    
+    header{
+      height: 306px;
+    }
+  
+    nav {
+      margin-top: 138px;
+      position: absolute;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav li {
+      margin: 0 10px;
+    }
+
+    #acerca{
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    #mapa iframe{
+        width: 384px;
+        height: 256px;
+    }
+
+    #video iframe{
+        width: 384px;
+        height: 256px;
+    }
+
+    /*384 y 256*/
+  }

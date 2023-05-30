@@ -1,0 +1,159 @@
+*{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+header{
+    background: url("../Imgs/bg.jpg");
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+#seccion2 ul{
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+#c h2,
+#b h2{
+    font-size: 30px;
+}
+
+#cb h2{
+    font-size: 29px;
+}
+
+#seccion2 li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 12px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#seccion2 li:hover{
+    border-color: #c78c19;
+    color: #c78c19;
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+#seccion2 li:hover h2{
+    font-size: 31px;
+    font-weight: bold;
+}
+
+footer{
+    background: url("../Imgs/bgf.jpg");
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+footer img{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header img{
+      margin-left: 107px;
+    }
+    
+    header{
+      height: 306px;
+    }
+  
+    nav {
+      margin-top: 138px;
+      position: absolute;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav li {
+      margin: 0 10px;
+    }
+
+    #seccion2 ul {
+        width: 100%;
+        margin: 0;
+        padding: 40px 0;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    
+      #seccion2 li {
+        display: inline-block;
+        text-align: center;
+        width: 90%;
+        max-width: 300px; /* Anchura máxima para evitar que los elementos sean demasiado anchos */
+        vertical-align: top;
+        margin: 12px auto; /* Margen vertical y centrado horizontalmente */
+        padding: 30px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-left: 10px;
+      }
+    
+      #seccion2 li:hover {
+        border-color: #c78c19;
+        color: #c78c19;
+        transform: scale(1.1);
+        transition: 400ms;
+      }
+    
+      #seccion2 li:hover h2 {
+        font-size: 31px;
+        font-weight: bold;
+      }
+  }
